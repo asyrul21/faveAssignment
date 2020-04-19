@@ -823,3 +823,223 @@ Processing by Api::V1::PayslipController#show as */*
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 260)
 
 
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:21:51 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- PayslipGenerator):
+  
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:23:29 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- ../../PayslipGenerator):
+  
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:24:09 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- /Users/asyrulhafetzy/Documents/CSDevelopment/Ruby/faveAssignment/PayslipGenerator):
+  
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:24:22 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- ../../PayslipGenerator):
+  
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:24:38 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/asyrulhafetzy/Documents/CSDevelopment/Ruby/faveAssignment/payslip-exam/getPayslipAPI/app/PayslipGenerator.rb:19: syntax error, unexpected ':', expecting end
+        return  data: {
+                    ^):
+  
+app/PayslipGenerator.rb:19: syntax error, unexpected ':', expecting end
+app/PayslipGenerator.rb:19: syntax error, unexpected ':', expecting end
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:26:07 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/asyrulhafetzy/Documents/CSDevelopment/Ruby/faveAssignment/payslip-exam/getPayslipAPI/app/PayslipGenerator.rb:19: syntax error, unexpected ':', expecting end
+        return  data: {
+                    ^):
+  
+app/PayslipGenerator.rb:19: syntax error, unexpected ':', expecting end
+app/PayslipGenerator.rb:19: syntax error, unexpected ':', expecting end
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:26:25 +0100
+  
+ActionController::RoutingError (undefined local variable or method `annual_salary' for main:Object):
+  
+app/PayslipGenerator.rb:41:in `<main>'
+app/controllers/api/v1/payslip_controller.rb:1:in `<main>'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:26:38 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:31:15 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/asyrulhafetzy/Documents/CSDevelopment/Ruby/faveAssignment/payslip-exam/getPayslipAPI/app/controllers/api/v1/payslip_controller.rb:24: dynamic constant assignment
+                PG = PayslipGenerator.new(name,...
+                ^~):
+  
+app/controllers/api/v1/payslip_controller.rb:24: dynamic constant assignment
+app/controllers/api/v1/payslip_controller.rb:24: dynamic constant assignment
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:35:39 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:37:12 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:38:32 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 291)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:39:46 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 162)
+
+
+  
+TypeError (no implicit conversion of Float into String):
+  
+app/PayslipGenerator.rb:33:in `+'
+app/PayslipGenerator.rb:33:in `display'
+app/controllers/api/v1/payslip_controller.rb:25:in `show'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:41:00 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 132)
+
+
+  
+TypeError (no implicit conversion of Float into String):
+  
+app/PayslipGenerator.rb:33:in `+'
+app/PayslipGenerator.rb:33:in `display'
+app/controllers/api/v1/payslip_controller.rb:25:in `show'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:41:41 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 130)
+
+
+  
+TypeError (no implicit conversion of Float into String):
+  
+app/PayslipGenerator.rb:33:in `+'
+app/PayslipGenerator.rb:33:in `display'
+app/controllers/api/v1/payslip_controller.rb:25:in `show'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-19 22:42:48 +0100
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 370)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:27:41 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 160)
+
+
+  
+ArgumentError (invalid value for Float(): "$5000.00"):
+  
+app/controllers/api/v1/payslip_controller.rb:142:in `%'
+app/controllers/api/v1/payslip_controller.rb:142:in `toCurrency'
+app/controllers/api/v1/payslip_controller.rb:41:in `show'
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:28:55 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:30:26 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 244)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:30:26 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 214)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:31:45 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 265)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:34:02 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:34:05 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 268)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:34:07 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 268)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:34:13 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 268)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=200000" for ::1 at 2020-04-20 00:34:20 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"200000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 268)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=80150" for ::1 at 2020-04-20 00:34:46 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"80150", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 266)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-20 00:37:39 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 353)
+
+
