@@ -130,7 +130,7 @@ Total Annual Tax
 We just did a video and shared about our product and engineering culture you can [find it here](https://www.linkedin.com/posts/fave-group_wearefave-digitalproduct-product-activity-6592343555904245760-tlQm)
 
 
-# Some references
+## Some references
 
 Installation of Ruby on Mac
 
@@ -141,3 +141,13 @@ Ruby on Rails: Gemfile not found issue
 https://stackoverflow.com/questions/10012181/bundle-install-returns-could-not-locate-gemfile
 
 https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
+
+Creating classes and exporting with require_relative
+
+https://stackoverflow.com/questions/9750610/ruby-require-error-cannot-load-such-file
+
+http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html
+
+Git submodule (double folder issue)
+
+https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean
