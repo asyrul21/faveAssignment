@@ -129,3 +129,15 @@ Total Annual Tax
 
 We just did a video and shared about our product and engineering culture you can [find it here](https://www.linkedin.com/posts/fave-group_wearefave-digitalproduct-product-activity-6592343555904245760-tlQm)
 
+
+# Some references
+
+Installation of Ruby on Mac
+
+https://stackify.com/install-ruby-on-your-mac-everything-you-need-to-get-going/
+
+Ruby on Rails: Gemfile not found issue
+
+https://stackoverflow.com/questions/10012181/bundle-install-returns-could-not-locate-gemfile
+
+https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
