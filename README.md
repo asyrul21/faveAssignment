@@ -130,7 +130,7 @@ Total Annual Tax
 We just did a video and shared about our product and engineering culture you can [find it here](https://www.linkedin.com/posts/fave-group_wearefave-digitalproduct-product-activity-6592343555904245760-tlQm)
 
 
-# Some references
+## Some references
 
 Installation of Ruby on Mac
 
@@ -141,3 +141,40 @@ Ruby on Rails: Gemfile not found issue
 https://stackoverflow.com/questions/10012181/bundle-install-returns-could-not-locate-gemfile
 
 https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
+
+Creating classes and exporting with require_relative
+
+https://stackoverflow.com/questions/9750610/ruby-require-error-cannot-load-such-file
+
+http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html
+
+Git submodule (double folder issue)
+
+https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean
+
+
+## Demo
+
+1. Navigate to /getPayslipAPI folder.
+
+2. Run server
+```bash
+rails s
+```
+
+3. Open another terminal window
+
+4. Navigate to /payslip-exam
+
+5. Run program. Insert name and annual salary as arguments.
+```bash
+ruby main.rb Ren 60000 
+```
+
+6. Sample output:
+```bash
+Monthly Payslip for: Ren
+Gross Monthly Income: $5000.00
+Monthly Income Tax: $500.00
+Net Monthly Income: $4500.00
+```
