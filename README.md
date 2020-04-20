@@ -151,3 +151,30 @@ http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html
 Git submodule (double folder issue)
 
 https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean
+
+
+## Demo
+
+1. Navigate to /getPayslipAPI folder.
+
+2. Run server
+```bash
+rails s
+```
+
+3. Open another terminal window
+
+4. Navigate to /payslip-exam
+
+5. Run program. Insert name and annual salary as arguments.
+```bash
+ruby main.rb Ren 60000 
+```
+
+6. Sample output:
+```bash
+Monthly Payslip for: Ren
+Gross Monthly Income: $5000.00
+Monthly Income Tax: $500.00
+Net Monthly Income: $4500.00
+```

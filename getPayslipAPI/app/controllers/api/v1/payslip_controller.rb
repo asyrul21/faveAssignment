@@ -20,7 +20,8 @@ module Api
 
                 # Payslip generator class
                 pg = PayslipGenerator.new(name, annual_salary);
-                paySlip = pg.display;
+                pg.display;
+                
                 paySlip = pg.getPaySlip;
 
                 #render

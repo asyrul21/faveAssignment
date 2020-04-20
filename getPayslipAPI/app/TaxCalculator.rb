@@ -19,7 +19,7 @@ class TaxCalculator
             # puts String(@boundaries[i]);
             rate = @rates[i];
 
-            # start
+            # logic start
             # if last item
             if(i == @boundaries.length() - 1)
                 # 180001 - above # no upper bound
