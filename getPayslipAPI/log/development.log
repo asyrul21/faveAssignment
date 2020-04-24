@@ -1157,3 +1157,23 @@ Processing by Api::V1::PayslipController#show as */*
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 353)
 
 
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-24 10:26:29 +0100
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-24 10:27:00 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 268)
+
+
+Started GET "/api/v1/payslip/show?name=Ren&annual_salary=60000" for ::1 at 2020-04-24 10:27:49 +0100
+Processing by Api::V1::PayslipController#show as */*
+  Parameters: {"name"=>"Ren", "annual_salary"=>"60000", "id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 268)
+
+
